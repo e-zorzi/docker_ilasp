@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
 
 # Store the destination folder
 DEST_FOLDER="files_ilasp"
