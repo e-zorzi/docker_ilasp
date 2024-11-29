@@ -8,16 +8,21 @@ It is based on Docker, but it is not necessary to know how to use it: just follo
 ## Installation
 
 1. Install [Docker](https://docs.docker.com/get-started/get-docker/).
-    If you are on Linux, the Docker daemon should now be running in the background. If you are on MacOs, you probably need to run the `Docker' application to let it start.
+    If you are on Linux, the Docker daemon should now be running in the background. If you are on MacOs, you probably need to run the 'Docker' application to let it start.
 
-2. Give exectution permission to the scripts `build_docker.sh` and `run_ilasp.sh` 
-    > chmod +x  ...
-
+2. Give exectution permission to the scripts 'build_docker.sh' and 'run_ilasp.sh'
+    ```
+   chmod +x  ...
+    ```
     They will, respectively: build a docker image based on `Dockerfile', which contains ILASP; run the container which will receive, as input, a .las file and run it using the containerized ILASP
 
-3. Run the build script
-   > ./build_docker.sh
+4. Run the build script
+   ```
+   ./build_docker.sh
+   ```
 
-4. Now you can use ILASP. Test it on the sudoku specification file:
-   > ./run_ilasp.sh sudoku.las
+5. Now you can use ILASP. Test it on the sudoku specification file:
+   ```
+   ./run_ilasp.sh sudoku.las
+   ```
     
