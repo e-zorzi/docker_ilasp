@@ -1,6 +1,6 @@
 if [ $# -eq 0 ]; then
     echo "Usage: $0 <file>"
-    echo "Please provide a file to ILASP on."
+    echo "Please provide <file> to ILASP on."
     exit 1
 fi
 
