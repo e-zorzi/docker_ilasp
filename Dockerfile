@@ -15,4 +15,3 @@ COPY read_file.sh /usr/local/bin/
 WORKDIR /usr/local/bin/
 
 ENTRYPOINT [ "/usr/local/bin/read_file.sh" ]
-#CMD ["read_file.sh && ILASP /usr/local/bin/files_ilaps/file.las"]
