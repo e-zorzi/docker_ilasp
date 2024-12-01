@@ -1,7 +1,8 @@
 # README
 
 Docker image with ILASP running. You can pass ".las" files to it to solve them. 
-Even though it is based on Docker, it is not necessary to know how to use it: just follow the instructions below. 
+
+Even though it is based on Docker, it is not necessary to know how to use it: it is very simple, just follow the instructions below. 
 
 ## Compatibility
 
