@@ -12,7 +12,7 @@ Even though it is based on Docker, it is not necessary to know how to use it: it
    
 ## Installation
 
-1. Install [Docker](https://docs.docker.com/get-started/get-docker/).
+1. Install [Docker](https://docs.docker.com/engine/install/) (or [Docker desktop](https://docs.docker.com/get-started/get-docker/)).
     If you are on Linux, the Docker daemon should now be running in the background. If you are on MacOs, you probably need to run the 'Docker' application to let it start.
 
 2. Give exectution permission to the scripts 'build_docker.sh' and 'run_ilasp.sh'
