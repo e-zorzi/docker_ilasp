@@ -6,7 +6,7 @@ Even though it is based on Docker, it is not necessary to know how to use it: it
 
 ## Compatibility
 
-1. **Ubuntu 22.04 (x86_64)**: tested and it works.
+1. **Ubuntu 22.04 (x86_64) and 20.04 (x86_64)**: tested and it works.
 2. **MacOs (Apple Silicon)**: tested and it works, but it is much slower, as it must simulate the x86 architecture. For the provided 'sudoku.las', it takes around 20s. Just wait and don't kill the process.
 3. **MacOs (x86_64)**: NOT tested but it should work.
    
