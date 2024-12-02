@@ -26,6 +26,8 @@ Even though it is based on Docker, it is not necessary to know how to use it: it
    ./build_docker.sh
    ```
 
+   If it gives you an error, try `sudo ./build_docker.sh`.
+
 5. Now you can use ILASP. Test it on the sudoku specification file:
    ```
    ./run_ilasp.sh sudoku.las
