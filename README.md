@@ -1,6 +1,6 @@
 # README
 
-Docker image with ILASP running. This is a *drop-in replacement* for ILASP: you can pass ".las" files to it to solve them. So, instead of calling `ILASP <file>` you will call `./run_ilasp.sh <file>`.
+Docker image with ILASP running. This is a *drop-in replacement* for ILASP: you can pass ".las" files to it to solve them. So, instead of calling `ILASP <file>` you will call `d-ilasp <file>`.
 
 Even though it is based on Docker, it is not necessary to know how to use it: it is very simple, just follow the instructions below. 
 
