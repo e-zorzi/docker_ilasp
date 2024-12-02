@@ -4,6 +4,7 @@ PLATFORM="$(uname -s)"
 ARCH="$(uname -m)"
 
 echo "Running $PLATFORM ($ARCH)"
+echo "[Computing...]"
 if [ $# -eq 0 ]; then
     echo "Usage: $0 <file>"
     echo "Please provide <file> to ILASP on."
