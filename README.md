@@ -32,5 +32,11 @@ Even though it is based on Docker, it is not necessary to know how to use it: it
    ```
    ./run_ilasp.sh sudoku.las
    ```
-    
+6. Now you can use run_ilasp.sh as a drop-in replacement for ILASP. Add it to your PATH to run it anywhere, e.g.
+   ```
+   cp run_ilasp.sh /usr/local/bin/d-ilasp
+   ```
+
+   Now you can use `d-ilasp` (docker-ilasp) instead of `ILASP` in your terminal.
+   
 Should be this simple. No other support will be provided.
