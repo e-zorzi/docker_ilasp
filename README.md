@@ -37,6 +37,6 @@ Even though it is based on Docker, it is not necessary to know how to use it: it
    cp run_ilasp.sh /usr/local/bin/d-ilasp
    ```
 
-   Now you can use `d-ilasp` (docker-ilasp) instead of `ILASP` in your terminal.
+   Now you can use `d-ilasp` (docker-ilasp) instead of `ILASP` in your terminal. **NOTE**: this requires the Docker daemon/Docker desktop to be running in the background (which should be the default on Linux), because of course it calls the Docker container to run ILASP everytime you call it.
    
 Should be this simple. No other support will be provided.
